@@ -1,0 +1,174 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+
+    /* estava no section */
+    background-image: url(./assets/backgroundCerveja.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+header {
+
+    font-size: 12px;
+    text-align: center;
+    background-color: #e4ac19dd;
+    padding: 10px;
+
+}
+
+
+
+.container {
+
+    max-width: 100%;
+
+
+}
+
+.formContainer {
+
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    max-width: 250px;
+    /* para deixar a altura ajustando de acordo com o conteudo*/
+    height: auto;
+    background-color: #fbec5dcc;
+    margin-left: 30px;
+    font-size: 14px;
+
+}
+
+.sectionText {
+
+    text-align: justify;
+    width: 100%;
+
+
+}
+
+
+.formContainer p {
+
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+input,
+select {
+
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    /* para deixar o input e o select do mesmo tamanho */
+    box-sizing: border-box;
+
+}
+
+input[type="submit"] {
+
+    background-color: #e4ac19dd;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+
+    background-color: #e4ac19ff;
+}
+
+.warningContainer {
+
+    background-color: rgba(255, 255, 0, 0.774);
+    text-align: center;
+    width: 500px;
+    height: 20%;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 50%;   
+
+}
+
+
+.attention{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+
+}
+
+@media screen and  (max-width:487px){
+
+    
+    h1{
+
+        font-size: 20px;
+        height: 40px;
+        min-width: 100%;
+    }
+    
+    
+    .formContainer {
+
+        
+        margin: auto;
+        width: 400px;                       
+
+    }
+
+    header{
+
+        
+        margin-bottom: 5px;
+
+    }
+
+    .warning {
+
+        margin-top: 5px
+    }
+
+    .warningContainer {
+
+        
+        width: 200px;
+        height: 150px;
+        float: none;
+        padding: 10px;          
+        font-size: 12px;
+        margin: auto;
+    
+    }  
+
+    .attention {
+
+        font-size: 20px;
+        
+    }
+
+     
+}
+
+/* melhorar a resposividade da pagina */
